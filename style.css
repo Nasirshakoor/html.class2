@@ -1,4 +1,42 @@
-h1,h2 {
-     color: red; 
-     border: dotted;
+h1 {
+     color: #b7570e; 
+     border: solid;
+     font-size: 5rem;
+     font-family: "Open Sans", Helvetica, sans-serif;
   }
+  h2{
+   color: #b7570e;
+  }
+  .dim{
+   color:rgb(105, 100, 100);
+  }
+
+  body{
+   background-color: #23A0F1;
+   color: white;
+  }
+
+  .profile-photo{
+   width: 200px;
+   border: 4px double white;
+   border-radius: 50%;
+
+  }
+  .square-Profile{
+   border-radius: 15px;
+   border: 2px solid white;
+
+  }
+  .circular-image {
+   width: 150px; /* Adjust the width and height to your preference */
+   height: 150px;
+   border-radius: 50%; /* This creates the circular shape */
+   overflow: hidden; /* Ensures the image stays within the circle */
+}
+
+/* Style for the image inside the circular container */
+.circular-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
